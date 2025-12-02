@@ -1,13 +1,10 @@
 function makeArray(firstArray, secondArray, maxLength) {
     const newMassive = firstArray.concat(secondArray);
-    if (newMassive.length > maxLength) {
+    if (newMassive.length >= maxLength) {
         return newMassive.slice(0, maxLength);
     }
-    else { return []
-
     }
 
-}
 
 console.log(makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"], 3)); // ["Mango", "Poly", "Ajax"]
 console.log(makeArray(["Mango", "Poly", "Houston"], ["Ajax", "Chelsea"], 4)); // ["Mango", "Poly", "Houston", "Ajax"]
