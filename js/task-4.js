@@ -1,31 +1,26 @@
-function getShippingCost(country) {
-    const ChinaShippingCost = 100;
-    const ChileShippingCost = 250;
-    const AustraliaShippingCost = 170;
-    const JamaicaShippingCost = 120;
+// function getCommonElements(array1, array2) {
+//   let massive = [];
+//     for (let i = 0; i <= array1.length; i++) {
+//             if (array2.includes(array1[i])) {
+//                 massive.push(array1[i])
+//             }
+//         }
+//     return massive;
+// }
 
-    switch (country) {
-        case "China":
-            return `Shipping to ${country} will cost ${ChinaShippingCost} credits`;
-            break;
-        case "Chile":
-            return `Shipping to ${country} will cost ${ChileShippingCost} credits`;
-            break;
-        case "Australia":
-            return `Shipping to ${country} will cost ${AustraliaShippingCost} credits`;
-            break;
-        case "Jamaica":
-            return `Shipping to ${country} will cost ${JamaicaShippingCost} credits`;
-            break;
-        default:
-            return "Sorry, there is no delivery to your country"
-    }
-    
-}
+// // const a1 = [1, 2, 3];
+// // const a2 = [2, 1, 17, 19];
 
-console.log(getShippingCost("Australia")); // "Shipping to Australia will cost 170 credits"
-console.log(getShippingCost("Germany")); // "Sorry, there is no delivery to your country"
-console.log(getShippingCost("China")); // "Shipping to China will cost 100 credits"
-console.log(getShippingCost("Chile")); // "Shipping to Chile will cost 250 credits"
-console.log(getShippingCost("Jamaica")); // "Shipping to Jamaica will cost 120 credits"
-console.log(getShippingCost("Sweden")); // "Sorry, there is no delivery to your country"
+// // let aa1 = a1.join(" ");
+// // let aa2 = a2.join(" ");
+
+// // console.log(aa1)
+// // console.log(aa2)
+
+// // const la = aa1.includes(aa2);
+// // console.log(la)
+
+
+
+// console.log(getCommonElements([24, 12, 27, 3], [12, 8, 3, 36, 27])); // "Shipping to Australia will cost 170 credits"
+
