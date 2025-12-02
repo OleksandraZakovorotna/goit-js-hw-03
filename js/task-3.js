@@ -1,7 +1,7 @@
 function filterArray(numbers, value) {
     let massive = [];
 
-    for (let i = 0; i <= numbers.length; i++) {
+    for (let i = 0; i < numbers.length; i++) {
         if (numbers[i] <= value) {
         }
         else {
